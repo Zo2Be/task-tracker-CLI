@@ -20,10 +20,3 @@ class Task:
         else:
             last_id = 0
         cls.id_counter = itertools.count(last_id + 1)
-
-
-# task = Task(
-#     description="wqe",
-#     createdAt=datetime.now(),
-#     updatedAt=datetime.now(),
-# )
